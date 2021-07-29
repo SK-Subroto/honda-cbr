@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda CBR</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- bootstrap-5 css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- custom style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <header class="container-fluid header-container">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-5">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link active" aria-current="page" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link active" aria-current="page" href="#">News</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <button class="btn btn-default btn-color" type="submit">Login</button>
+            </div>
+        </nav>
+
+        <section class="container header-section"> 
+            <div class="row row-cols-1 row-cols-lg-2 g-5">
+                <div class="col">
+                    <div class="header-detail">
+                        <small class="header-top">Computer-controlled digital transistorized with electronic advance</small>
+                        <h1>Honda CBR 300R</h1>
+                        <p>Open-class four-cylinder liter bikes have long been the holy grail for the best sportbike riders. Powerful, precise
+                        machines that stand at the very top of motorcycling’s hierarchy. On the track, they command your full attention.</p>
+
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn-color btn btn-default px-5 my-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Purchase
+                            </button>
+                    </div>
+                    <!-- <div class="btn btn-default"></div> -->
+            
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Honda CBR 300R</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Open-class four-cylinder liter bikes have long been the holy grail for the best sportbike riders. Powerful, precise
+                                    machines that stand at the very top of motorcycling’s hierarchy.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancle</button>
+                                    <button type="button" class="btn-color btn btn-default">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center justify-content-lg-end">
+                    <img class="img-fluid" src="assets/images/header-bike.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- feature bike -->
+        <section class="container feature-container">
+            <div class="text-center feature-title">
+                <h1>Fetured Bikes 2021</h1>
+                <p><small>Best bike collection</small></p>
+            </div>
+            <div class="feature-cards">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col mb-5">
+                        <div class="feature-bike-img">
+                            <img class="gray-img img-fluid" src="assets/images/feature-bike.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="feature-bike-img">
+                            <img class="img-fluid" src="assets/images/feature-bike.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="feature-bike-img">
+                            <img class="gray-img img-fluid" src="assets/images/feature-bike.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- lates bikes -->
+        <section class="container latest-container">
+            <h1 class="latest-title text-center">Latest News</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card bike-card p-3 shadow-sm border-0">
+                        <img class="img-fluid" src="assets/images/bike-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text">Open-class four-cylinder liter bikes have long been the holy grail for the best sportbike riders.</p>
+
+                            <button class="btn btn-lg btn-outline-primary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bike-card p-3 shadow-sm border-0">
+                        <img class="img-fluid" src="assets/images/bike-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Motorcycles & Scooters</h5>
+                            <p class="card-text">Open-class four-cylinder liter bikes have long been the holy grail for the best sportbike riders.
+                            </p>
+
+                            <button class="btn btn-lg btn-outline-primary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bike-card p-3 shadow-sm border-0">
+                        <img class="img-fluid" src="assets/images/bike-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">2021 Honda CBR500R</h5>
+                            <p class="card-text">Open-class four-cylinder liter bikes have long been the holy grail for the best sportbike riders.
+                            </p>
+
+                            <button class="btn btn-lg btn-outline-primary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- customer reciew -->
+        <section class="container review-container px-lg-5">
+            <h1 class="review-title text-center">Happy <span class="title-color">Clients says</span></h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 g-lg-5">
+                <div class="col">
+                    <div class="card">
+                        <img class="rounded-circle client-img" src="assets/images/user-1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="client-comment card-text">One of the best bikes of the segment. Eyecache design is the most attractive part of the bike. The power delivery of the
+                            engine.</p>
+                            <div class="client-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <small class="client-name d-block">Regina Miles</small>
+                            <small class="client-occupation">Banker</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="rounded-circle client-img" src="assets/images/user-2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="client-comment card-text">Best bike in the 150cc segment. Gives really good performances on highways. I traveled 500 km/day, and the bike is
+                            really good.</p>
+                            <div class="client-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <small class="client-name d-block">Regina Miles</small>
+                            <small class="client-occupation">Banker</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="rounded-circle client-img" src="assets/images/user-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="client-comment card-text">Should give 4.5 ratings to this bike because of their features, safety, mileage, and comfort, thanks to Yamaha. I really
+                            love this very much.</p>
+                            <div class="client-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <small class="client-name d-block">Regina Miles</small>
+                            <small class="client-occupation">Banker</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- question -->
+        <section class="container ques-ans-container">
+            <h1 class="ques-ans-title text-center">Frequently Asked <span class="title-color">Questions</span></h1>
+            <div class="row row-cols-1 row-cols-lg-2 g-4">
+                <div class="col d-flex justify-content-center justify-content-lg-start">
+                    <div class="ques-ans-img">
+                        <img class="img-fluid" src="assets/images/faq.png" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mb-4">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    What are the most important things I should
+                                    know about riding a bike?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body answer">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of
+                                    “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-4 border-top">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed question" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How can I tell if my helmet is old and I need a
+                                    new one?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body answer">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of
+                                    “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-4 border-top">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed question" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body answer">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of
+                                    “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-4 border-top">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed question" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What rules should I follow when riding my bike?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body answer">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of
+                                    “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- upcoming -->
+        <section class="container upcoming-container">
+            <h1 class="text-center upcoming-title">Upcomming <span class="title-color">Bikes</span></h1>
+            <div>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row align-items-center g-3 p-4" style="background-color: #F7F7F7;">
+                                <div class="col-lg-7 order-1 order-lg-0">
+                                    <div class="upcoming-detail text-dark">
+                                        <h3>Has just arrived!</h3>
+                                        <h1>Honda CBR AK900</h1>
+                                        <p>High Speed, Super Engine, more...</p>
+                                        <small class="d-block pb-2">Release on 26 Aug, 2021</small>
+                                        <button class="btn-color btn btn-default">View Details <i class="fas fa-chevron-right"></i></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 order-0 order-lg-1">
+                                    <img src="assets/images/upcome-2.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row align-items-center g-3 p-4" style="background-color: #F7F7F7;">
+                                <div class="col-lg-7 order-1 order-lg-0">
+                                    <div class="upcoming-detail text-dark">
+                                        <h3>Coming Soon...</h3>
+                                        <h1>Honda CBR SR800</h1>
+                                        <p>High Speed, Super Engine, more...</p>
+                                        <small class="d-block pb-2">Release on 26 Aug, 2021</small>
+                                        <button class="btn-color btn btn-default">View Details </i><i
+                                                class="fas fa-chevron-right"></i></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 order-0 order-lg-1">
+                                    <img src="assets/images/upcome-1.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row align-items-center g-3 p-4" style="background-color: #F7F7F7;">
+                                <div class="col-lg-7 order-1 order-lg-0">
+                                    <div class="upcoming-detail text-dark">
+                                        <h3>Star Pre-Booking</h3>
+                                        <h1>Honda CBR V500</h1>
+                                        <p>High Speed, Super Engine, more...</p>
+                                        <small class="d-block pb-2">Release on 11 Dec, 2021</small>
+                                        <button class="btn-color btn btn-default">View Details </i><i
+                                                class="fas fa-chevron-right"></i></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 order-0 order-lg-1">
+                                    <img src="assets/images/upcome-3.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+  
+                </div>
+            </div>
+        </section>
+
+        <!-- find us -->
+        <section class="container find-us-container">
+            <h1 class="text-center find-us-title">Find <span class="title-color">Near By</span></h1>
+            <div class="find-us">
+                <div class="find-us-img">
+                    <img class="img-fluid" src="assets/images/honda-map.jpg" alt="">
+                </div>
+                <div class="find-us-trans-bg"></div>
+                <div class="find-us-form">
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <button class="btn-color btn btn-default" type="button" id="button-addon2">FIND A DEALER</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <h3>Follow us on</h3>
+                <div class="social-icon">
+                    <i class="me-2 fas fa-2x fa-rss-square"></i>
+                    <i class="me-2 fab fa-2x fa-facebook-square"></i>
+                    <i class="me-2 fab fa-2x fa-twitter-square"></i>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="container-fluid">
+        <div class="container footer-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="footer-sec d-flex flex-warp">
+                        <p>Download Now</p>
+                        <p>License</p>
+                    </div>
+                    <div class="footer-sec d-flex flex-wrap">
+                        <p>About</p>
+                        <p>Features</p>
+                        <p>Pricing</p>
+                        <p>Careers</p>
+                        <p>Help</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-start justify-content-lg-center">
+                    <div>
+                        <p>Get the App</p>
+                        <div class="app">
+                            <div class="ios d-flex align-items-center">
+                                <img src="assets/images/Apple-logo.png" alt="">
+                                <div class="ios-detail">
+                                    <small>Download on the</small>
+                                    <h6>App Store</h6>
+                                </div>
+                            </div>
+                            <div class="android d-flex align-items-center">
+                                <img src="assets/images/google-play-store-logo.png" alt="">
+                                <div class="android-detail">
+                                    <small>GET IT ON</small>
+                                    <h6>Google Play</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-start pt-4">
+                    <small class="">© 2020 bike. All rights reserved</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- bootstrap-5 js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
