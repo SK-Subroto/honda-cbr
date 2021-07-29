@@ -167,6 +167,7 @@ body{
 }
 .social-icon{
     color: #E76F51;
+    cursor: pointer;
 }
 /* footer */
 footer{
